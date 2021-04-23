@@ -1,0 +1,96 @@
+.array-container {
+    position: absolute;
+    right: 25px;
+    bottom: 15px;
+}
+
+.array-bar {
+    width: 5px;
+    background-color: #135569;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background: linear-gradient(to right, #368299 0%, #135569 100%);
+}
+
+.mainnav {
+    display: block;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+.mainnav ul {
+    display: flex;
+    align-items: center;
+}
+
+.mainnav li {
+    display: flex;
+    align-items: center;
+    float: left;
+    height: 100%;
+    width: 15%;
+}
+
+.mainnav li button {
+    border: 2px solid darkgray;
+    border-radius: 20px;
+    float: left;
+    background-color: transparent;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.mainnav li button:hover {
+    border: 2.5px solid black;
+}
+
+.subnav {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.subnav {
+    height: 100%;
+    width: 100%;
+}
+
+.subnav ul {
+    display: block;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+.subnav ul li {
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+.subnav ul li button {
+    float: left;
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: inherit;
+}
+
+.subnav ul li button:hover {
+    border: 2.5px solid black;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
