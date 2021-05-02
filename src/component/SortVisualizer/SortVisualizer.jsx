@@ -14,11 +14,11 @@ export class SortVisualizer extends React.Component {
         };
 
         setArrayState = setArrayState.bind(this);       //bind functions to this, to access states
-        getArrayState= getArrayState.bind(this);
+        getArrayState = getArrayState.bind(this);
         setSortingState = setSortingState.bind(this);
-        getSortingState= getSortingState.bind(this);
+        getSortingState = getSortingState.bind(this);
         setSortingTime = setSortingTime.bind(this);
-        getSortingTime= getSortingTime.bind(this);
+        getSortingTime = getSortingTime.bind(this);
     }
 
     componentDidMount() {
